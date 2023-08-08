@@ -1,0 +1,3 @@
+#Mean - missed value
+stroke_data["bmi"] = stroke_data["bmi"].replace(np.NaN, stroke_data["bmi"].mean())
+print(stroke_data["bmi"][:10])
